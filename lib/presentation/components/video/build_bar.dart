@@ -26,8 +26,8 @@ class BuildBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.black38,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
+      child: Stack(
+        alignment: Alignment.bottomCenter,
         children: [
           Expanded(
             child: Padding(
@@ -49,9 +49,7 @@ class BuildBar extends StatelessWidget {
               ),
             ),
           ),
-          ProgressIndicatorControl(
-            controller: controller,
-          ),
+          ProgressIndicatorControl(controller: controller),
           CurrentVideoPosition(videoPlayerController: controller),
         ],
       ),
