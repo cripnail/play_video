@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
-
 import '../../../bloc/video_cubit.dart';
-import '../../../widgets/custom_control_widget.dart';
 import 'controls/current_video_position.dart';
 import 'controls/custom_control_widget.dart';
 import 'controls/play_control.dart';
@@ -31,22 +29,24 @@ class BuildBar extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 16.0,
-              vertical: 4.0,
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                PlayControl(
-                  iconSize: iconSize,
-                ),
-                CustomControlsWidget(
-                  controller: controller,
-                  timestamps: timestamps,
-                ),
-              ],
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16.0,
+                vertical: 4.0,
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  PlayControl(
+                    iconSize: iconSize,
+                  ),
+                  CustomControlsWidget(
+                    controller: controller,
+                    timestamps: timestamps,
+                  ),
+                ],
+              ),
             ),
           ),
           ProgressIndicatorControl(
