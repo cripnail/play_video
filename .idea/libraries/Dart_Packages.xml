@@ -229,7 +229,7 @@
         <entry key="video_player">
           <value>
             <list>
-              <option value="/opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.4.8/lib" />
+              <option value="/opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.4.9/lib" />
             </list>
           </value>
         </entry>
@@ -292,7 +292,7 @@
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.1/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.4.12/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.2/lib" />
-      <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.4.8/lib" />
+      <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.4.9/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_android-2.3.9/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_avfoundation-2.3.7/lib" />
       <root url="file:///opt/homebrew/Caskroom/flutter/3.3.9/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_platform_interface-5.1.4/lib" />

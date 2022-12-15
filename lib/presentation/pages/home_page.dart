@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               // Normally you'll get both the url and the aspect ratio from your video meta data
               'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
               aspectRatio: 1.77,
-              autoPlay: true,
+              autoPlay: false,
             ),
           ),
           const Padding(
