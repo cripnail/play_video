@@ -20,7 +20,8 @@ class HomePage extends StatelessWidget {
           Expanded(
             child: Video.blocProvider(
               // Normally you'll get both the url and the aspect ratio from your video meta data
-              'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+              // 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+              'https://www.onirikal.com/videos/mp4/vfxmalefic.mp4',
               aspectRatio: 1.77,
               autoPlay: false,
             ),
