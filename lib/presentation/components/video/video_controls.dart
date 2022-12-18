@@ -23,7 +23,7 @@ class VideoControls extends StatelessWidget {
   final EdgeInsets padding;
   final List<Duration> timestamps;
 
-  static const _heightProgressControl = 4.0;
+  static const _heightProgressControl = 90.0;
 
   double get height => iconSize + _heightProgressControl + padding.vertical;
 
